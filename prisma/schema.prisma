@@ -1,0 +1,30 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+generator typegraphql {
+  provider            = "typegraphql-prisma"
+  output              = "../prisma/generated/type-graphql"
+  formatGeneratedCode = "prettier"
+}
+
+enum ParkingLotType {
+  public
+  private
+  courtesy
+}
+
+model ParkingLot {
+  id        String       @id @default(uuid()) @map("pl_id")
+  name      String       @unique  @map("pl_name")
+  spots     Int          @map("pl_spots")
+  contact   BigInt       @map("pl_contact")
+  parkingType ParkingLotType @map("pl_parking_type")
+
+  @@map("parking_lots")
+}

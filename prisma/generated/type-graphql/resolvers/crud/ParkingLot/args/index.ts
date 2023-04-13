@@ -1,0 +1,14 @@
+export { AggregateParkingLotArgs } from "./AggregateParkingLotArgs";
+export { CreateManyParkingLotArgs } from "./CreateManyParkingLotArgs";
+export { CreateOneParkingLotArgs } from "./CreateOneParkingLotArgs";
+export { DeleteManyParkingLotArgs } from "./DeleteManyParkingLotArgs";
+export { DeleteOneParkingLotArgs } from "./DeleteOneParkingLotArgs";
+export { FindFirstParkingLotArgs } from "./FindFirstParkingLotArgs";
+export { FindFirstParkingLotOrThrowArgs } from "./FindFirstParkingLotOrThrowArgs";
+export { FindManyParkingLotArgs } from "./FindManyParkingLotArgs";
+export { FindUniqueParkingLotArgs } from "./FindUniqueParkingLotArgs";
+export { FindUniqueParkingLotOrThrowArgs } from "./FindUniqueParkingLotOrThrowArgs";
+export { GroupByParkingLotArgs } from "./GroupByParkingLotArgs";
+export { UpdateManyParkingLotArgs } from "./UpdateManyParkingLotArgs";
+export { UpdateOneParkingLotArgs } from "./UpdateOneParkingLotArgs";
+export { UpsertOneParkingLotArgs } from "./UpsertOneParkingLotArgs";

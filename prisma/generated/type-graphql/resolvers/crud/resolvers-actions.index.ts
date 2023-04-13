@@ -1,0 +1,14 @@
+export { AggregateParkingLotResolver } from "./ParkingLot/AggregateParkingLotResolver";
+export { CreateManyParkingLotResolver } from "./ParkingLot/CreateManyParkingLotResolver";
+export { CreateOneParkingLotResolver } from "./ParkingLot/CreateOneParkingLotResolver";
+export { DeleteManyParkingLotResolver } from "./ParkingLot/DeleteManyParkingLotResolver";
+export { DeleteOneParkingLotResolver } from "./ParkingLot/DeleteOneParkingLotResolver";
+export { FindFirstParkingLotResolver } from "./ParkingLot/FindFirstParkingLotResolver";
+export { FindFirstParkingLotOrThrowResolver } from "./ParkingLot/FindFirstParkingLotOrThrowResolver";
+export { FindManyParkingLotResolver } from "./ParkingLot/FindManyParkingLotResolver";
+export { FindUniqueParkingLotResolver } from "./ParkingLot/FindUniqueParkingLotResolver";
+export { FindUniqueParkingLotOrThrowResolver } from "./ParkingLot/FindUniqueParkingLotOrThrowResolver";
+export { GroupByParkingLotResolver } from "./ParkingLot/GroupByParkingLotResolver";
+export { UpdateManyParkingLotResolver } from "./ParkingLot/UpdateManyParkingLotResolver";
+export { UpdateOneParkingLotResolver } from "./ParkingLot/UpdateOneParkingLotResolver";
+export { UpsertOneParkingLotResolver } from "./ParkingLot/UpsertOneParkingLotResolver";
